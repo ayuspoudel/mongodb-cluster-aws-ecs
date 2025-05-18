@@ -1,4 +1,4 @@
-module "simple_vpc" {
+module "mongo_vpc" {
   source = "git::https://github.com/ayuspoudel/cloud-iac-monorepo.git//modules/vpc?ref=master"
 
   project_name           = "mongodb-ha"
